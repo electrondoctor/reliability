@@ -6048,7 +6048,7 @@ class ALT_MLE_optimization:
             bounds = [
                 (None, None),
                 (0, None),
-                (None, None),
+                (-1, 1),
                 (0, None),
             ]  # a, c, n, shape
             dual_stress = True
